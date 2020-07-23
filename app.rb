@@ -8,4 +8,4 @@ end
 
 post 'team' do
   @name = params[:name]
-  @coach = params[]
+  @coach = params[:]
