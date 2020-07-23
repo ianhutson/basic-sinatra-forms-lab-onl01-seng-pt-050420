@@ -7,4 +7,5 @@ get '/newteam' do
 end
 
 post 'team' do
-  @name = 
+  @name = params[:name]
+  @coach = params[]
