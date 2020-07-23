@@ -15,3 +15,4 @@ post 'team' do
   @pf = params[:pf]
   @c = params[:c]
 end
+end
